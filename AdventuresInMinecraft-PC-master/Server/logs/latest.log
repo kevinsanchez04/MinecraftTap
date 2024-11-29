@@ -1,35 +1,55 @@
-[17:59:40] [Server thread/INFO]: Starting minecraft server version 1.12
-[17:59:40] [Server thread/INFO]: Loading properties
-[17:59:40] [Server thread/INFO]: Default game type: CREATIVE
-[17:59:40] [Server thread/INFO]: Generating keypair
-[17:59:41] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:59:41] [Server thread/INFO]: Using default channel type
-[17:59:42] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
-[17:59:42] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
-[17:59:42] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:59:42] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:59:42] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:59:42] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:59:42] [Server thread/INFO]: Preparing level "world"
-[17:59:43] [Server thread/INFO]: Preparing start region for level 0 (Seed: -5963707194692196805)
-[17:59:43] [Server thread/INFO]: Preparing start region for level 1 (Seed: -5963707194692196805)
-[17:59:44] [Server thread/INFO]: Preparing start region for level 2 (Seed: -5963707194692196805)
-[17:59:44] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
-[17:59:44] [Server thread/INFO]: [RaspberryJuice] Using port 4711
-[17:59:44] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
-[17:59:44] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
-[17:59:44] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
-[17:59:44] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:59:44] [Server thread/INFO]: Done (2,181s)! For help, type "help" or "?"
-[18:02:13] [Server thread/INFO]: Kevin[/127.0.0.1:52406] logged in with entity id 18 at ([world]239.5, 63.0, 243.5)
-[18:08:53] [Server thread/INFO]: Kevin lost connection: Internal Exception: java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
-[18:08:53] [Server thread/INFO]: Kevin left the game
-[18:08:59] [Server thread/INFO]: Stopping the server
-[18:08:59] [Server thread/INFO]: Stopping server
-[18:08:59] [Server thread/INFO]: [RaspberryJuice] Disabling RaspberryJuice v1.10
-[18:08:59] [Server thread/INFO]: [RaspberryJuice] Raspberry Juice Stopped
-[18:08:59] [Server thread/INFO]: Saving players
-[18:08:59] [Server thread/INFO]: Saving worlds
-[18:08:59] [Server thread/INFO]: Saving chunks for level 'world'/overworld
-[18:09:00] [Server thread/INFO]: Saving chunks for level 'world_nether'/the_nether
-[18:09:00] [Server thread/INFO]: Saving chunks for level 'world_the_end'/the_end
+[00:05:32] [Server thread/INFO]: Loading properties
+[00:05:32] [Server thread/INFO]: Default game type: CREATIVE
+[00:05:32] [Server thread/INFO]: Generating keypair
+[00:05:32] [Server thread/INFO]: Starting Minecraft server on *:25565
+[00:05:32] [Server thread/INFO]: Using default channel type
+[00:05:33] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
+[00:05:33] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
+[00:05:33] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[00:05:33] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[00:05:33] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[00:05:33] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[00:05:33] [Server thread/INFO]: Preparing level "world"
+[00:05:33] [Server thread/INFO]: Preparing start region for level 0 (Seed: -5963707194692196805)
+[00:05:34] [Server thread/INFO]: Preparing start region for level 1 (Seed: -5963707194692196805)
+[00:05:34] [Server thread/INFO]: Preparing start region for level 2 (Seed: -5963707194692196805)
+[00:05:34] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
+[00:05:34] [Server thread/INFO]: [RaspberryJuice] Using port 4711
+[00:05:34] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
+[00:05:34] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
+[00:05:34] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
+[00:05:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[00:05:34] [Server thread/INFO]: Done (1,369s)! For help, type "help" or "?"
+[00:05:45] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57917.
+[00:05:45] [Thread-7/INFO]: [RaspberryJuice] Starting input thread
+[00:05:45] [Thread-8/INFO]: [RaspberryJuice] Starting output thread!
+[00:05:45] [Server thread/INFO]: Lyubo la mama[m
+[00:05:45] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57917.
+[00:09:03] [Thread-9/INFO]: [RaspberryJuice] Starting input thread
+[00:09:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:58729.
+[00:09:03] [Thread-10/INFO]: [RaspberryJuice] Starting output thread!
+[00:09:03] [Server thread/INFO]: Lyubo la mama[m
+[00:09:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:58729.
+[00:09:11] [Thread-11/INFO]: [RaspberryJuice] Starting input thread
+[00:09:11] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:58756.
+[00:09:11] [Thread-12/INFO]: [RaspberryJuice] Starting output thread!
+[00:09:11] [Server thread/INFO]: Lyubo la mama[m
+[00:09:12] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:58756.
+[00:09:53] [Server thread/INFO]: Kevin[/127.0.0.1:58999] logged in with entity id 17 at ([world]237.8832412657831, 68.0, 231.9569022760543)
+[00:10:02] [Thread-13/INFO]: [RaspberryJuice] Starting input thread
+[00:10:02] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59034.
+[00:10:02] [Thread-14/INFO]: [RaspberryJuice] Starting output thread!
+[00:10:03] [Server thread/INFO]: Lyubo la mama[m
+[00:10:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59034.
+[00:10:24] [Thread-15/INFO]: [RaspberryJuice] Starting input thread
+[00:10:24] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59107.
+[00:10:24] [Thread-16/INFO]: [RaspberryJuice] Starting output thread!
+[00:10:24] [Server thread/INFO]: A Lyubo li agrada la verga[m
+[00:10:24] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59107.
+[00:10:47] [Thread-17/INFO]: [RaspberryJuice] Starting input thread
+[00:10:47] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59197.
+[00:10:47] [Thread-18/INFO]: [RaspberryJuice] Starting output thread!
+[00:10:47] [Server thread/INFO]: Text en pantalla[m
+[00:10:47] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59197.
+[00:11:11] [Server thread/INFO]: Kevin lost connection: Disconnected
+[00:11:11] [Server thread/INFO]: Kevin left the game
