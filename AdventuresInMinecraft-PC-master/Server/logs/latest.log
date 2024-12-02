@@ -1,55 +1,791 @@
-[00:05:32] [Server thread/INFO]: Loading properties
-[00:05:32] [Server thread/INFO]: Default game type: CREATIVE
-[00:05:32] [Server thread/INFO]: Generating keypair
-[00:05:32] [Server thread/INFO]: Starting Minecraft server on *:25565
-[00:05:32] [Server thread/INFO]: Using default channel type
-[00:05:33] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
-[00:05:33] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
-[00:05:33] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[00:05:33] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[00:05:33] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[00:05:33] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[00:05:33] [Server thread/INFO]: Preparing level "world"
-[00:05:33] [Server thread/INFO]: Preparing start region for level 0 (Seed: -5963707194692196805)
-[00:05:34] [Server thread/INFO]: Preparing start region for level 1 (Seed: -5963707194692196805)
-[00:05:34] [Server thread/INFO]: Preparing start region for level 2 (Seed: -5963707194692196805)
-[00:05:34] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
-[00:05:34] [Server thread/INFO]: [RaspberryJuice] Using port 4711
-[00:05:34] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
-[00:05:34] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
-[00:05:34] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
-[00:05:34] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[00:05:34] [Server thread/INFO]: Done (1,369s)! For help, type "help" or "?"
-[00:05:45] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57917.
-[00:05:45] [Thread-7/INFO]: [RaspberryJuice] Starting input thread
-[00:05:45] [Thread-8/INFO]: [RaspberryJuice] Starting output thread!
-[00:05:45] [Server thread/INFO]: Lyubo la mama[m
-[00:05:45] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57917.
-[00:09:03] [Thread-9/INFO]: [RaspberryJuice] Starting input thread
-[00:09:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:58729.
-[00:09:03] [Thread-10/INFO]: [RaspberryJuice] Starting output thread!
-[00:09:03] [Server thread/INFO]: Lyubo la mama[m
-[00:09:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:58729.
-[00:09:11] [Thread-11/INFO]: [RaspberryJuice] Starting input thread
-[00:09:11] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:58756.
-[00:09:11] [Thread-12/INFO]: [RaspberryJuice] Starting output thread!
-[00:09:11] [Server thread/INFO]: Lyubo la mama[m
-[00:09:12] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:58756.
-[00:09:53] [Server thread/INFO]: Kevin[/127.0.0.1:58999] logged in with entity id 17 at ([world]237.8832412657831, 68.0, 231.9569022760543)
-[00:10:02] [Thread-13/INFO]: [RaspberryJuice] Starting input thread
-[00:10:02] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59034.
-[00:10:02] [Thread-14/INFO]: [RaspberryJuice] Starting output thread!
-[00:10:03] [Server thread/INFO]: Lyubo la mama[m
-[00:10:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59034.
-[00:10:24] [Thread-15/INFO]: [RaspberryJuice] Starting input thread
-[00:10:24] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59107.
-[00:10:24] [Thread-16/INFO]: [RaspberryJuice] Starting output thread!
-[00:10:24] [Server thread/INFO]: A Lyubo li agrada la verga[m
-[00:10:24] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59107.
-[00:10:47] [Thread-17/INFO]: [RaspberryJuice] Starting input thread
-[00:10:47] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59197.
-[00:10:47] [Thread-18/INFO]: [RaspberryJuice] Starting output thread!
-[00:10:47] [Server thread/INFO]: Text en pantalla[m
-[00:10:47] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59197.
-[00:11:11] [Server thread/INFO]: Kevin lost connection: Disconnected
-[00:11:11] [Server thread/INFO]: Kevin left the game
+[20:35:57] [Server thread/INFO]: Starting minecraft server version 1.12
+[20:35:57] [Server thread/INFO]: Loading properties
+[20:35:57] [Server thread/INFO]: Default game type: CREATIVE
+[20:35:57] [Server thread/INFO]: Generating keypair
+[20:35:58] [Server thread/INFO]: Starting Minecraft server on *:25565
+[20:35:58] [Server thread/INFO]: Using default channel type
+[20:35:58] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
+[20:35:59] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
+[20:35:59] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[20:35:59] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[20:35:59] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[20:35:59] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[20:35:59] [Server thread/INFO]: Preparing level "world"
+[20:35:59] [Server thread/INFO]: Preparing start region for level 0 (Seed: -5963707194692196805)
+[20:35:59] [Server thread/INFO]: Preparing start region for level 1 (Seed: -5963707194692196805)
+[20:36:00] [Server thread/INFO]: Preparing start region for level 2 (Seed: -5963707194692196805)
+[20:36:00] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
+[20:36:00] [Server thread/INFO]: [RaspberryJuice] Using port 4711
+[20:36:00] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
+[20:36:00] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
+[20:36:00] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
+[20:36:00] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[20:36:00] [Server thread/INFO]: Done (1,244s)! For help, type "help" or "?"
+[20:37:38] [Thread-7/INFO]: [RaspberryJuice] Starting input thread
+[20:37:38] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53274.
+[20:37:38] [Thread-8/INFO]: [RaspberryJuice] Starting output thread!
+[20:37:38] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53274.
+[20:37:42] [Server thread/INFO]: Kevin[/127.0.0.1:53288] logged in with entity id 13 at ([world]195.34844839656137, 71.0, 207.0385209491435)
+[20:37:46] [Netty Server IO #1/INFO]: <Kevin> hola[m
+[20:37:49] [Netty Server IO #1/INFO]: <Kevin> framework[m
+[20:38:14] [Thread-9/INFO]: [RaspberryJuice] Starting input thread
+[20:38:14] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53408.
+[20:38:14] [Thread-10/INFO]: [RaspberryJuice] Starting output thread!
+[20:38:20] [Netty Server IO #1/INFO]: <Kevin> hola[m
+[20:38:22] [Netty Server IO #1/INFO]: <Kevin> framework[m
+[20:46:15] [Netty Server IO #1/INFO]: <Kevin> asd[m
+[20:47:24] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53408.
+[20:47:26] [Thread-11/INFO]: [RaspberryJuice] Starting input thread
+[20:47:26] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55390.
+[20:47:26] [Thread-12/INFO]: [RaspberryJuice] Starting output thread!
+[20:47:26] [Server thread/INFO]: HOLA[m
+[20:47:26] [Server thread/INFO]: HOLA[m
+[20:47:26] [Server thread/INFO]: HOLA[m
+[20:47:26] [Server thread/INFO]: HOLA[m
+[20:47:26] [Server thread/INFO]: HOLA[m
+[20:47:26] [Server thread/INFO]: HOLA[m
+[20:47:26] [Server thread/INFO]: HOLA[m
+[20:47:26] [Server thread/INFO]: HOLA[m
+[20:47:26] [Server thread/INFO]: HOLA[m
+[20:47:26] [Server thread/INFO]: HOLA[m
+[20:47:26] [Server thread/INFO]: HOLA[m
+[20:47:26] [Server thread/INFO]: HOLA[m
+[20:47:26] [Server thread/INFO]: HOLA[m
+[20:47:26] [Server thread/INFO]: HOLA[m
+[20:47:27] [Server thread/INFO]: HOLA[m
+[20:47:27] [Server thread/INFO]: HOLA[m
+[20:47:27] [Server thread/INFO]: HOLA[m
+[20:47:27] [Server thread/INFO]: HOLA[m
+[20:47:27] [Server thread/INFO]: HOLA[m
+[20:47:27] [Server thread/INFO]: HOLA[m
+[20:47:27] [Server thread/INFO]: HOLA[m
+[20:47:27] [Server thread/INFO]: HOLA[m
+[20:47:27] [Server thread/INFO]: HOLA[m
+[20:47:27] [Server thread/INFO]: HOLA[m
+[20:47:27] [Server thread/INFO]: HOLA[m
+[20:47:27] [Server thread/INFO]: HOLA[m
+[20:47:27] [Server thread/INFO]: HOLA[m
+[20:47:27] [Server thread/INFO]: HOLA[m
+[20:47:27] [Server thread/INFO]: HOLA[m
+[20:47:27] [Server thread/INFO]: HOLA[m
+[20:47:27] [Server thread/INFO]: HOLA[m
+[20:47:27] [Server thread/INFO]: HOLA[m
+[20:47:27] [Server thread/INFO]: HOLA[m
+[20:47:27] [Server thread/INFO]: HOLA[m
+[20:47:28] [Server thread/INFO]: HOLA[m
+[20:47:28] [Server thread/INFO]: HOLA[m
+[20:47:28] [Server thread/INFO]: HOLA[m
+[20:47:28] [Server thread/INFO]: HOLA[m
+[20:47:28] [Server thread/INFO]: HOLA[m
+[20:47:28] [Server thread/INFO]: HOLA[m
+[20:47:28] [Server thread/INFO]: HOLA[m
+[20:47:28] [Server thread/INFO]: HOLA[m
+[20:47:28] [Server thread/INFO]: HOLA[m
+[20:47:28] [Server thread/INFO]: HOLA[m
+[20:47:28] [Server thread/INFO]: HOLA[m
+[20:47:28] [Server thread/INFO]: HOLA[m
+[20:47:28] [Server thread/INFO]: HOLA[m
+[20:47:28] [Server thread/INFO]: HOLA[m
+[20:47:28] [Server thread/INFO]: HOLA[m
+[20:47:28] [Server thread/INFO]: HOLA[m
+[20:47:28] [Server thread/INFO]: HOLA[m
+[20:47:28] [Server thread/INFO]: HOLA[m
+[20:47:28] [Server thread/INFO]: HOLA[m
+[20:47:28] [Server thread/INFO]: HOLA[m
+[20:47:29] [Server thread/INFO]: HOLA[m
+[20:47:29] [Server thread/INFO]: HOLA[m
+[20:47:29] [Server thread/INFO]: HOLA[m
+[20:47:29] [Server thread/INFO]: HOLA[m
+[20:47:29] [Server thread/INFO]: HOLA[m
+[20:47:29] [Server thread/INFO]: HOLA[m
+[20:47:29] [Server thread/INFO]: HOLA[m
+[20:47:29] [Server thread/INFO]: HOLA[m
+[20:47:29] [Server thread/INFO]: HOLA[m
+[20:47:29] [Server thread/INFO]: HOLA[m
+[20:47:29] [Server thread/INFO]: HOLA[m
+[20:47:29] [Server thread/INFO]: HOLA[m
+[20:47:29] [Server thread/INFO]: HOLA[m
+[20:47:29] [Server thread/INFO]: HOLA[m
+[20:47:29] [Server thread/INFO]: HOLA[m
+[20:47:29] [Server thread/INFO]: HOLA[m
+[20:47:29] [Server thread/INFO]: HOLA[m
+[20:47:29] [Server thread/INFO]: HOLA[m
+[20:47:29] [Server thread/INFO]: HOLA[m
+[20:47:29] [Server thread/INFO]: HOLA[m
+[20:47:30] [Server thread/INFO]: HOLA[m
+[20:47:30] [Server thread/INFO]: HOLA[m
+[20:47:30] [Server thread/INFO]: HOLA[m
+[20:47:30] [Server thread/INFO]: HOLA[m
+[20:47:30] [Server thread/INFO]: HOLA[m
+[20:47:30] [Server thread/INFO]: HOLA[m
+[20:47:30] [Server thread/INFO]: HOLA[m
+[20:47:30] [Server thread/INFO]: HOLA[m
+[20:47:30] [Server thread/INFO]: HOLA[m
+[20:47:30] [Server thread/INFO]: HOLA[m
+[20:47:30] [Server thread/INFO]: HOLA[m
+[20:47:30] [Server thread/INFO]: HOLA[m
+[20:47:30] [Server thread/INFO]: HOLA[m
+[20:47:30] [Server thread/INFO]: HOLA[m
+[20:47:30] [Server thread/INFO]: HOLA[m
+[20:47:30] [Server thread/INFO]: HOLA[m
+[20:47:30] [Server thread/INFO]: HOLA[m
+[20:47:30] [Server thread/INFO]: HOLA[m
+[20:47:30] [Server thread/INFO]: HOLA[m
+[20:47:30] [Server thread/INFO]: HOLA[m
+[20:47:31] [Server thread/INFO]: HOLA[m
+[20:47:31] [Server thread/INFO]: HOLA[m
+[20:47:31] [Server thread/INFO]: HOLA[m
+[20:47:31] [Server thread/INFO]: HOLA[m
+[20:47:31] [Server thread/INFO]: HOLA[m
+[20:47:31] [Server thread/INFO]: HOLA[m
+[20:47:31] [Server thread/INFO]: HOLA[m
+[20:47:31] [Server thread/INFO]: HOLA[m
+[20:47:31] [Server thread/INFO]: HOLA[m
+[20:47:31] [Server thread/INFO]: HOLA[m
+[20:47:31] [Server thread/INFO]: HOLA[m
+[20:47:31] [Server thread/INFO]: HOLA[m
+[20:47:31] [Server thread/INFO]: HOLA[m
+[20:47:31] [Server thread/INFO]: HOLA[m
+[20:47:31] [Server thread/INFO]: HOLA[m
+[20:47:31] [Server thread/INFO]: HOLA[m
+[20:47:31] [Server thread/INFO]: HOLA[m
+[20:47:31] [Server thread/INFO]: HOLA[m
+[20:47:31] [Server thread/INFO]: HOLA[m
+[20:47:31] [Server thread/INFO]: HOLA[m
+[20:47:32] [Server thread/INFO]: HOLA[m
+[20:47:32] [Server thread/INFO]: HOLA[m
+[20:47:32] [Server thread/INFO]: HOLA[m
+[20:47:32] [Server thread/INFO]: HOLA[m
+[20:47:32] [Server thread/INFO]: HOLA[m
+[20:47:32] [Server thread/INFO]: HOLA[m
+[20:47:32] [Server thread/INFO]: HOLA[m
+[20:47:32] [Server thread/INFO]: HOLA[m
+[20:47:32] [Server thread/INFO]: HOLA[m
+[20:47:32] [Server thread/INFO]: HOLA[m
+[20:47:32] [Server thread/INFO]: HOLA[m
+[20:47:32] [Server thread/INFO]: HOLA[m
+[20:47:32] [Server thread/INFO]: HOLA[m
+[20:47:32] [Server thread/INFO]: HOLA[m
+[20:47:32] [Server thread/INFO]: HOLA[m
+[20:47:32] [Server thread/INFO]: HOLA[m
+[20:47:32] [Server thread/INFO]: HOLA[m
+[20:47:32] [Server thread/INFO]: HOLA[m
+[20:47:32] [Server thread/INFO]: HOLA[m
+[20:47:32] [Server thread/INFO]: HOLA[m
+[20:47:33] [Server thread/INFO]: HOLA[m
+[20:47:33] [Server thread/INFO]: HOLA[m
+[20:47:33] [Server thread/INFO]: HOLA[m
+[20:47:33] [Server thread/INFO]: HOLA[m
+[20:47:33] [Server thread/INFO]: HOLA[m
+[20:47:33] [Server thread/INFO]: HOLA[m
+[20:47:33] [Server thread/INFO]: HOLA[m
+[20:47:33] [Server thread/INFO]: HOLA[m
+[20:47:33] [Server thread/INFO]: HOLA[m
+[20:47:33] [Server thread/INFO]: HOLA[m
+[20:47:33] [Server thread/INFO]: HOLA[m
+[20:47:33] [Server thread/INFO]: HOLA[m
+[20:47:33] [Server thread/INFO]: HOLA[m
+[20:47:33] [Server thread/INFO]: HOLA[m
+[20:47:33] [Server thread/INFO]: HOLA[m
+[20:47:33] [Server thread/INFO]: HOLA[m
+[20:47:33] [Server thread/INFO]: HOLA[m
+[20:47:33] [Server thread/INFO]: HOLA[m
+[20:47:33] [Server thread/INFO]: HOLA[m
+[20:47:33] [Server thread/INFO]: HOLA[m
+[20:47:34] [Server thread/INFO]: HOLA[m
+[20:47:34] [Server thread/INFO]: HOLA[m
+[20:47:34] [Server thread/INFO]: HOLA[m
+[20:47:34] [Server thread/INFO]: HOLA[m
+[20:47:34] [Server thread/INFO]: HOLA[m
+[20:47:34] [Server thread/INFO]: HOLA[m
+[20:47:34] [Server thread/INFO]: HOLA[m
+[20:47:34] [Server thread/INFO]: HOLA[m
+[20:47:34] [Server thread/INFO]: HOLA[m
+[20:47:34] [Server thread/INFO]: HOLA[m
+[20:47:34] [Server thread/INFO]: HOLA[m
+[20:47:34] [Server thread/INFO]: HOLA[m
+[20:47:34] [Server thread/INFO]: HOLA[m
+[20:47:34] [Server thread/INFO]: HOLA[m
+[20:47:34] [Server thread/INFO]: HOLA[m
+[20:47:34] [Server thread/INFO]: HOLA[m
+[20:47:34] [Server thread/INFO]: HOLA[m
+[20:47:34] [Server thread/INFO]: HOLA[m
+[20:47:34] [Server thread/INFO]: HOLA[m
+[20:47:34] [Server thread/INFO]: HOLA[m
+[20:47:35] [Server thread/INFO]: HOLA[m
+[20:47:35] [Server thread/INFO]: HOLA[m
+[20:47:35] [Server thread/INFO]: HOLA[m
+[20:47:35] [Server thread/INFO]: HOLA[m
+[20:47:35] [Server thread/INFO]: HOLA[m
+[20:47:35] [Server thread/INFO]: HOLA[m
+[20:47:35] [Server thread/INFO]: HOLA[m
+[20:47:35] [Server thread/INFO]: HOLA[m
+[20:47:35] [Server thread/INFO]: HOLA[m
+[20:47:35] [Server thread/INFO]: HOLA[m
+[20:47:35] [Server thread/INFO]: HOLA[m
+[20:47:35] [Server thread/INFO]: HOLA[m
+[20:47:35] [Server thread/INFO]: HOLA[m
+[20:47:35] [Server thread/INFO]: HOLA[m
+[20:47:35] [Server thread/INFO]: HOLA[m
+[20:47:35] [Server thread/INFO]: HOLA[m
+[20:47:35] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55390.
+[20:47:37] [Thread-13/INFO]: [RaspberryJuice] Starting input thread
+[20:47:37] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55434.
+[20:47:37] [Thread-14/INFO]: [RaspberryJuice] Starting output thread!
+[20:47:37] [Server thread/INFO]: HOLA[m
+[20:47:41] [Netty Server IO #1/INFO]: <Kevin> asd[m
+[20:47:55] [Netty Server IO #1/INFO]: <Kevin> hola[m
+[20:48:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55434.
+[20:48:08] [Thread-15/INFO]: [RaspberryJuice] Starting input thread
+[20:48:08] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55541.
+[20:48:08] [Thread-16/INFO]: [RaspberryJuice] Starting output thread!
+[20:48:08] [Server thread/INFO]: HOLA[m
+[20:48:09] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55541.
+[20:48:13] [Netty Server IO #1/INFO]: <Kevin> ka[m
+[20:50:10] [Thread-17/INFO]: [RaspberryJuice] Starting input thread
+[20:50:10] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55971.
+[20:50:10] [Thread-18/INFO]: [RaspberryJuice] Starting output thread!
+[20:50:10] [Server thread/INFO]: Ets tonto[m
+[20:50:10] [Server thread/INFO]: Ets tonto[m
+[20:50:10] [Server thread/INFO]: Ets tonto[m
+[20:50:10] [Server thread/INFO]: Ets tonto[m
+[20:50:10] [Server thread/INFO]: Ets cavero[m
+[20:50:10] [Server thread/INFO]: Ets burro[m
+[20:50:10] [Server thread/INFO]: Ets tonto[m
+[20:50:10] [Server thread/INFO]: Ets cavero[m
+[20:50:10] [Server thread/INFO]: Ets cavero[m
+[20:50:10] [Server thread/INFO]: Ets burro[m
+[20:50:11] [Server thread/INFO]: Ets cavero[m
+[20:50:11] [Server thread/INFO]: Ets cavero[m
+[20:50:11] [Server thread/INFO]: Ets burro[m
+[20:50:11] [Server thread/INFO]: Ets tonto[m
+[20:50:11] [Server thread/INFO]: Ets cavero[m
+[20:50:11] [Server thread/INFO]: Ets tonto[m
+[20:50:11] [Server thread/INFO]: Ets burro[m
+[20:50:11] [Server thread/INFO]: Ets cavero[m
+[20:50:11] [Server thread/INFO]: Ets cavero[m
+[20:50:11] [Server thread/INFO]: Ets cavero[m
+[20:50:11] [Server thread/INFO]: Ets burro[m
+[20:50:11] [Server thread/INFO]: Ets tonto[m
+[20:50:11] [Server thread/INFO]: Ets burro[m
+[20:50:11] [Server thread/INFO]: Ets cavero[m
+[20:50:11] [Server thread/INFO]: Ets cavero[m
+[20:50:11] [Server thread/INFO]: Ets cavero[m
+[20:50:11] [Server thread/INFO]: Ets tonto[m
+[20:50:11] [Server thread/INFO]: Ets tonto[m
+[20:50:11] [Server thread/INFO]: Ets cavero[m
+[20:50:11] [Server thread/INFO]: Ets cavero[m
+[20:50:12] [Server thread/INFO]: Ets cavero[m
+[20:50:12] [Server thread/INFO]: Ets burro[m
+[20:50:12] [Server thread/INFO]: Ets burro[m
+[20:50:12] [Server thread/INFO]: Ets burro[m
+[20:50:12] [Server thread/INFO]: Ets tonto[m
+[20:50:12] [Server thread/INFO]: Ets burro[m
+[20:50:12] [Server thread/INFO]: Ets burro[m
+[20:50:12] [Server thread/INFO]: Ets cavero[m
+[20:50:12] [Server thread/INFO]: Ets cavero[m
+[20:50:12] [Server thread/INFO]: Ets tonto[m
+[20:50:12] [Server thread/INFO]: Ets burro[m
+[20:50:12] [Server thread/INFO]: Ets tonto[m
+[20:50:12] [Server thread/INFO]: Ets burro[m
+[20:50:12] [Server thread/INFO]: Ets cavero[m
+[20:50:12] [Server thread/INFO]: Ets cavero[m
+[20:50:12] [Server thread/INFO]: Ets tonto[m
+[20:50:12] [Server thread/INFO]: Ets cavero[m
+[20:50:12] [Server thread/INFO]: Ets burro[m
+[20:50:12] [Server thread/INFO]: Ets burro[m
+[20:50:12] [Server thread/INFO]: Ets tonto[m
+[20:50:13] [Server thread/INFO]: Ets burro[m
+[20:50:13] [Server thread/INFO]: Ets tonto[m
+[20:50:13] [Server thread/INFO]: Ets burro[m
+[20:50:13] [Server thread/INFO]: Ets tonto[m
+[20:50:13] [Server thread/INFO]: Ets tonto[m
+[20:50:13] [Server thread/INFO]: Ets burro[m
+[20:50:13] [Server thread/INFO]: Ets tonto[m
+[20:50:13] [Server thread/INFO]: Ets tonto[m
+[20:50:13] [Server thread/INFO]: Ets tonto[m
+[20:50:13] [Server thread/INFO]: Ets burro[m
+[20:50:13] [Server thread/INFO]: Ets cavero[m
+[20:50:13] [Server thread/INFO]: Ets tonto[m
+[20:50:13] [Server thread/INFO]: Ets burro[m
+[20:50:13] [Server thread/INFO]: Ets cavero[m
+[20:50:13] [Server thread/INFO]: Ets tonto[m
+[20:50:13] [Server thread/INFO]: Ets tonto[m
+[20:50:13] [Server thread/INFO]: Ets burro[m
+[20:50:13] [Server thread/INFO]: Ets cavero[m
+[20:50:13] [Server thread/INFO]: Ets burro[m
+[20:50:13] [Server thread/INFO]: Ets burro[m
+[20:50:14] [Server thread/INFO]: Ets tonto[m
+[20:50:14] [Server thread/INFO]: Ets cavero[m
+[20:50:14] [Server thread/INFO]: Ets tonto[m
+[20:50:14] [Server thread/INFO]: Ets tonto[m
+[20:50:14] [Server thread/INFO]: Ets burro[m
+[20:50:14] [Server thread/INFO]: Ets burro[m
+[20:50:14] [Server thread/INFO]: Ets tonto[m
+[20:50:14] [Server thread/INFO]: Ets tonto[m
+[20:50:14] [Server thread/INFO]: Ets cavero[m
+[20:50:14] [Server thread/INFO]: Ets tonto[m
+[20:50:14] [Server thread/INFO]: Ets burro[m
+[20:50:14] [Server thread/INFO]: Ets tonto[m
+[20:50:14] [Server thread/INFO]: Ets tonto[m
+[20:50:14] [Server thread/INFO]: Ets burro[m
+[20:50:14] [Server thread/INFO]: Ets burro[m
+[20:50:14] [Server thread/INFO]: Ets cavero[m
+[20:50:14] [Server thread/INFO]: Ets burro[m
+[20:50:14] [Server thread/INFO]: Ets burro[m
+[20:50:14] [Server thread/INFO]: Ets burro[m
+[20:50:14] [Server thread/INFO]: Ets tonto[m
+[20:50:15] [Server thread/INFO]: Ets tonto[m
+[20:50:15] [Server thread/INFO]: Ets tonto[m
+[20:50:15] [Server thread/INFO]: Ets cavero[m
+[20:50:15] [Server thread/INFO]: Ets tonto[m
+[20:50:15] [Server thread/INFO]: Ets burro[m
+[20:50:15] [Server thread/INFO]: Ets tonto[m
+[20:50:15] [Server thread/INFO]: Ets burro[m
+[20:50:15] [Server thread/INFO]: Ets burro[m
+[20:50:15] [Server thread/INFO]: Ets cavero[m
+[20:50:15] [Server thread/INFO]: Ets burro[m
+[20:50:15] [Server thread/INFO]: Ets cavero[m
+[20:50:15] [Server thread/INFO]: Ets burro[m
+[20:50:15] [Server thread/INFO]: Ets tonto[m
+[20:50:15] [Server thread/INFO]: Ets burro[m
+[20:50:15] [Server thread/INFO]: Ets tonto[m
+[20:50:15] [Server thread/INFO]: Ets burro[m
+[20:50:15] [Server thread/INFO]: Ets cavero[m
+[20:50:15] [Server thread/INFO]: Ets tonto[m
+[20:50:15] [Server thread/INFO]: Ets tonto[m
+[20:50:15] [Server thread/INFO]: Ets cavero[m
+[20:50:16] [Server thread/INFO]: Ets tonto[m
+[20:50:16] [Server thread/INFO]: Ets tonto[m
+[20:50:16] [Server thread/INFO]: Ets tonto[m
+[20:50:16] [Server thread/INFO]: Ets cavero[m
+[20:50:16] [Server thread/INFO]: Ets burro[m
+[20:50:16] [Server thread/INFO]: Ets cavero[m
+[20:50:16] [Server thread/INFO]: Ets burro[m
+[20:50:16] [Server thread/INFO]: Ets burro[m
+[20:50:16] [Server thread/INFO]: Ets burro[m
+[20:50:16] [Server thread/INFO]: Ets burro[m
+[20:50:16] [Server thread/INFO]: Ets tonto[m
+[20:50:16] [Server thread/INFO]: Ets cavero[m
+[20:50:16] [Server thread/INFO]: Ets tonto[m
+[20:50:16] [Server thread/INFO]: Ets burro[m
+[20:50:16] [Server thread/INFO]: Ets cavero[m
+[20:50:16] [Server thread/INFO]: Ets cavero[m
+[20:50:16] [Server thread/INFO]: Ets cavero[m
+[20:50:16] [Server thread/INFO]: Ets tonto[m
+[20:50:16] [Server thread/INFO]: Ets cavero[m
+[20:50:16] [Server thread/INFO]: Ets tonto[m
+[20:50:17] [Server thread/INFO]: Ets burro[m
+[20:50:17] [Server thread/INFO]: Ets tonto[m
+[20:50:17] [Server thread/INFO]: Ets tonto[m
+[20:50:17] [Server thread/INFO]: Ets burro[m
+[20:50:17] [Server thread/INFO]: Ets tonto[m
+[20:50:17] [Server thread/INFO]: Ets tonto[m
+[20:50:17] [Server thread/INFO]: Ets cavero[m
+[20:50:17] [Server thread/INFO]: Ets cavero[m
+[20:50:17] [Server thread/INFO]: Ets cavero[m
+[20:50:17] [Server thread/INFO]: Ets burro[m
+[20:50:17] [Server thread/INFO]: Ets cavero[m
+[20:50:17] [Server thread/INFO]: Ets tonto[m
+[20:50:17] [Server thread/INFO]: Ets burro[m
+[20:50:17] [Server thread/INFO]: Ets burro[m
+[20:50:17] [Server thread/INFO]: Ets tonto[m
+[20:50:17] [Server thread/INFO]: Ets cavero[m
+[20:50:17] [Server thread/INFO]: Ets tonto[m
+[20:50:17] [Server thread/INFO]: Ets cavero[m
+[20:50:17] [Server thread/INFO]: Ets burro[m
+[20:50:17] [Server thread/INFO]: Ets tonto[m
+[20:50:18] [Server thread/INFO]: Ets tonto[m
+[20:50:18] [Server thread/INFO]: Ets cavero[m
+[20:50:18] [Server thread/INFO]: Ets cavero[m
+[20:50:18] [Server thread/INFO]: Ets burro[m
+[20:50:18] [Server thread/INFO]: Ets tonto[m
+[20:50:18] [Server thread/INFO]: Ets burro[m
+[20:50:18] [Server thread/INFO]: Ets burro[m
+[20:50:18] [Server thread/INFO]: Ets tonto[m
+[20:50:18] [Server thread/INFO]: Ets cavero[m
+[20:50:18] [Server thread/INFO]: Ets burro[m
+[20:50:18] [Server thread/INFO]: Ets cavero[m
+[20:50:18] [Server thread/INFO]: Ets tonto[m
+[20:50:18] [Server thread/INFO]: Ets tonto[m
+[20:50:18] [Server thread/INFO]: Ets burro[m
+[20:50:18] [Server thread/INFO]: Ets cavero[m
+[20:50:18] [Server thread/INFO]: Ets cavero[m
+[20:50:18] [Server thread/INFO]: Ets tonto[m
+[20:50:18] [Server thread/INFO]: Ets tonto[m
+[20:50:18] [Server thread/INFO]: Ets tonto[m
+[20:50:18] [Server thread/INFO]: Ets tonto[m
+[20:50:19] [Server thread/INFO]: Ets burro[m
+[20:50:19] [Server thread/INFO]: Ets burro[m
+[20:50:19] [Server thread/INFO]: Ets tonto[m
+[20:50:19] [Server thread/INFO]: Ets cavero[m
+[20:50:19] [Server thread/INFO]: Ets cavero[m
+[20:50:19] [Server thread/INFO]: Ets cavero[m
+[20:50:19] [Server thread/INFO]: Ets tonto[m
+[20:50:19] [Server thread/INFO]: Ets cavero[m
+[20:50:19] [Server thread/INFO]: Ets tonto[m
+[20:50:19] [Server thread/INFO]: Ets tonto[m
+[20:50:19] [Server thread/INFO]: Ets burro[m
+[20:50:19] [Server thread/INFO]: Ets cavero[m
+[20:50:19] [Server thread/INFO]: Ets cavero[m
+[20:50:19] [Server thread/INFO]: Ets burro[m
+[20:50:19] [Server thread/INFO]: Ets tonto[m
+[20:50:19] [Server thread/INFO]: Ets burro[m
+[20:50:19] [Server thread/INFO]: Ets tonto[m
+[20:50:19] [Server thread/INFO]: Ets burro[m
+[20:50:19] [Server thread/INFO]: Ets tonto[m
+[20:50:19] [Server thread/INFO]: Ets burro[m
+[20:50:20] [Server thread/INFO]: Ets burro[m
+[20:50:20] [Server thread/INFO]: Ets tonto[m
+[20:50:20] [Server thread/INFO]: Ets cavero[m
+[20:50:20] [Server thread/INFO]: Ets tonto[m
+[20:50:20] [Server thread/INFO]: Ets cavero[m
+[20:50:20] [Server thread/INFO]: Ets tonto[m
+[20:50:20] [Server thread/INFO]: Ets tonto[m
+[20:50:20] [Server thread/INFO]: Ets burro[m
+[20:50:20] [Server thread/INFO]: Ets tonto[m
+[20:50:20] [Server thread/INFO]: Ets cavero[m
+[20:50:20] [Server thread/INFO]: Ets tonto[m
+[20:50:20] [Server thread/INFO]: Ets cavero[m
+[20:50:20] [Server thread/INFO]: Ets cavero[m
+[20:50:20] [Server thread/INFO]: Ets tonto[m
+[20:50:20] [Server thread/INFO]: Ets cavero[m
+[20:50:20] [Server thread/INFO]: Ets cavero[m
+[20:50:20] [Server thread/INFO]: Ets burro[m
+[20:50:20] [Server thread/INFO]: Ets tonto[m
+[20:50:20] [Server thread/INFO]: Ets cavero[m
+[20:50:20] [Server thread/INFO]: Ets burro[m
+[20:50:21] [Server thread/INFO]: Ets burro[m
+[20:50:21] [Server thread/INFO]: Ets tonto[m
+[20:50:21] [Server thread/INFO]: Ets tonto[m
+[20:50:21] [Server thread/INFO]: Ets tonto[m
+[20:50:21] [Server thread/INFO]: Ets tonto[m
+[20:50:21] [Server thread/INFO]: Ets tonto[m
+[20:50:21] [Server thread/INFO]: Ets burro[m
+[20:50:21] [Server thread/INFO]: Ets cavero[m
+[20:50:21] [Server thread/INFO]: Ets cavero[m
+[20:50:21] [Server thread/INFO]: Ets burro[m
+[20:50:21] [Server thread/INFO]: Ets tonto[m
+[20:50:21] [Server thread/INFO]: Ets tonto[m
+[20:50:21] [Server thread/INFO]: Ets burro[m
+[20:50:21] [Server thread/INFO]: Ets burro[m
+[20:50:21] [Server thread/INFO]: Ets burro[m
+[20:50:21] [Server thread/INFO]: Ets cavero[m
+[20:50:21] [Server thread/INFO]: Ets burro[m
+[20:50:21] [Server thread/INFO]: Ets tonto[m
+[20:50:21] [Server thread/INFO]: Ets cavero[m
+[20:50:21] [Server thread/INFO]: Ets tonto[m
+[20:50:22] [Server thread/INFO]: Ets burro[m
+[20:50:22] [Server thread/INFO]: Ets burro[m
+[20:50:22] [Server thread/INFO]: Ets burro[m
+[20:50:22] [Server thread/INFO]: Ets cavero[m
+[20:50:22] [Server thread/INFO]: Ets cavero[m
+[20:50:22] [Server thread/INFO]: Ets tonto[m
+[20:50:22] [Server thread/INFO]: Ets tonto[m
+[20:50:22] [Server thread/INFO]: Ets cavero[m
+[20:50:22] [Server thread/INFO]: Ets cavero[m
+[20:50:22] [Server thread/INFO]: Ets tonto[m
+[20:50:22] [Server thread/INFO]: Ets cavero[m
+[20:50:22] [Server thread/INFO]: Ets tonto[m
+[20:50:22] [Server thread/INFO]: Ets cavero[m
+[20:50:22] [Server thread/INFO]: Ets cavero[m
+[20:50:22] [Server thread/INFO]: Ets burro[m
+[20:50:22] [Server thread/INFO]: Ets burro[m
+[20:50:22] [Server thread/INFO]: Ets burro[m
+[20:50:22] [Server thread/INFO]: Ets cavero[m
+[20:50:22] [Server thread/INFO]: Ets burro[m
+[20:50:22] [Server thread/INFO]: Ets burro[m
+[20:50:23] [Server thread/INFO]: Ets tonto[m
+[20:50:23] [Server thread/INFO]: Ets tonto[m
+[20:50:23] [Server thread/INFO]: Ets tonto[m
+[20:50:23] [Server thread/INFO]: Ets cavero[m
+[20:50:23] [Server thread/INFO]: Ets tonto[m
+[20:50:23] [Server thread/INFO]: Ets tonto[m
+[20:50:23] [Server thread/INFO]: Ets cavero[m
+[20:50:23] [Server thread/INFO]: Ets tonto[m
+[20:50:23] [Server thread/INFO]: Ets tonto[m
+[20:50:23] [Server thread/INFO]: Ets tonto[m
+[20:50:23] [Server thread/INFO]: Ets cavero[m
+[20:50:23] [Server thread/INFO]: Ets tonto[m
+[20:50:23] [Server thread/INFO]: Ets burro[m
+[20:50:23] [Server thread/INFO]: Ets tonto[m
+[20:50:23] [Server thread/INFO]: Ets burro[m
+[20:50:23] [Server thread/INFO]: Ets cavero[m
+[20:50:23] [Server thread/INFO]: Ets tonto[m
+[20:50:23] [Server thread/INFO]: Ets burro[m
+[20:50:23] [Server thread/INFO]: Ets tonto[m
+[20:50:23] [Server thread/INFO]: Ets cavero[m
+[20:50:24] [Server thread/INFO]: Ets tonto[m
+[20:50:24] [Server thread/INFO]: Ets tonto[m
+[20:50:24] [Server thread/INFO]: Ets tonto[m
+[20:50:24] [Server thread/INFO]: Ets cavero[m
+[20:50:24] [Server thread/INFO]: Ets cavero[m
+[20:50:24] [Server thread/INFO]: Ets tonto[m
+[20:50:24] [Server thread/INFO]: Ets tonto[m
+[20:50:24] [Server thread/INFO]: Ets tonto[m
+[20:50:24] [Server thread/INFO]: Ets cavero[m
+[20:50:24] [Server thread/INFO]: Ets cavero[m
+[20:50:24] [Server thread/INFO]: Ets tonto[m
+[20:50:24] [Server thread/INFO]: Ets tonto[m
+[20:50:24] [Server thread/INFO]: Ets tonto[m
+[20:50:24] [Server thread/INFO]: Ets burro[m
+[20:50:24] [Server thread/INFO]: Ets burro[m
+[20:50:24] [Server thread/INFO]: Ets burro[m
+[20:50:24] [Server thread/INFO]: Ets burro[m
+[20:50:24] [Server thread/INFO]: Ets tonto[m
+[20:50:24] [Server thread/INFO]: Ets burro[m
+[20:50:24] [Server thread/INFO]: Ets cavero[m
+[20:50:25] [Server thread/INFO]: Ets tonto[m
+[20:50:25] [Server thread/INFO]: Ets burro[m
+[20:50:25] [Server thread/INFO]: Ets tonto[m
+[20:50:25] [Server thread/INFO]: Ets tonto[m
+[20:50:25] [Server thread/INFO]: Ets tonto[m
+[20:50:25] [Server thread/INFO]: Ets tonto[m
+[20:50:25] [Server thread/INFO]: Ets tonto[m
+[20:50:25] [Server thread/INFO]: Ets tonto[m
+[20:50:25] [Server thread/INFO]: Ets tonto[m
+[20:50:25] [Server thread/INFO]: Ets cavero[m
+[20:50:25] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55971.
+[20:51:27] [Thread-19/INFO]: [RaspberryJuice] Starting input thread
+[20:51:27] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:56238.
+[20:51:27] [Thread-20/INFO]: [RaspberryJuice] Starting output thread!
+[20:51:27] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:56238.
+[20:51:37] [Server thread/INFO]: Kevin issued server command: /clear
+[20:51:46] [Server thread/INFO]: Kevin lost connection: Disconnected
+[20:51:46] [Server thread/INFO]: Kevin left the game
+[20:51:48] [Server thread/INFO]: Kevin[/127.0.0.1:56306] logged in with entity id 27 at ([world]197.97614104363555, 71.0, 205.9709340639858)
+[20:56:04] [Thread-21/INFO]: [RaspberryJuice] Starting input thread
+[20:56:04] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57200.
+[20:56:04] [Thread-22/INFO]: [RaspberryJuice] Starting output thread!
+[20:56:04] [Server thread/INFO]: Ets cavero[m
+[20:56:05] [Server thread/INFO]: Ets cavero[m
+[20:56:05] [Server thread/INFO]: Ets tonto[m
+[20:56:05] [Server thread/INFO]: Ets burro[m
+[20:56:05] [Server thread/INFO]: Ets burro[m
+[20:56:05] [Server thread/INFO]: Ets cavero[m
+[20:56:05] [Server thread/INFO]: Ets tonto[m
+[20:56:05] [Server thread/INFO]: Ets cavero[m
+[20:56:05] [Server thread/INFO]: Ets cavero[m
+[20:56:05] [Server thread/INFO]: Ets burro[m
+[20:56:05] [Server thread/INFO]: Ets tonto[m
+[20:56:05] [Server thread/INFO]: Ets tonto[m
+[20:56:05] [Server thread/INFO]: Ets cavero[m
+[20:56:05] [Server thread/INFO]: Ets cavero[m
+[20:56:05] [Server thread/INFO]: Ets tonto[m
+[20:56:05] [Server thread/INFO]: Ets cavero[m
+[20:56:05] [Server thread/INFO]: Ets tonto[m
+[20:56:05] [Server thread/INFO]: Ets tonto[m
+[20:56:05] [Server thread/INFO]: Ets cavero[m
+[20:56:05] [Server thread/INFO]: Ets tonto[m
+[20:56:05] [Server thread/INFO]: Ets tonto[m
+[20:56:06] [Server thread/INFO]: Ets cavero[m
+[20:56:06] [Server thread/INFO]: Ets cavero[m
+[20:56:06] [Server thread/INFO]: Ets burro[m
+[20:56:06] [Server thread/INFO]: Ets tonto[m
+[20:56:06] [Server thread/INFO]: Ets tonto[m
+[20:56:06] [Server thread/INFO]: Ets tonto[m
+[20:56:06] [Server thread/INFO]: Ets cavero[m
+[20:56:06] [Server thread/INFO]: Ets tonto[m
+[20:56:06] [Server thread/INFO]: Ets tonto[m
+[20:56:06] [Server thread/INFO]: Ets burro[m
+[20:56:06] [Server thread/INFO]: Ets cavero[m
+[20:56:06] [Server thread/INFO]: Ets cavero[m
+[20:56:06] [Server thread/INFO]: Ets tonto[m
+[20:56:06] [Server thread/INFO]: Ets burro[m
+[20:56:06] [Server thread/INFO]: Ets burro[m
+[20:56:06] [Server thread/INFO]: Ets cavero[m
+[20:56:06] [Server thread/INFO]: Ets tonto[m
+[20:56:06] [Server thread/INFO]: Ets cavero[m
+[20:56:06] [Server thread/INFO]: Ets tonto[m
+[20:56:06] [Server thread/INFO]: Ets tonto[m
+[20:56:07] [Server thread/INFO]: Ets cavero[m
+[20:56:07] [Server thread/INFO]: Ets cavero[m
+[20:56:07] [Server thread/INFO]: Ets cavero[m
+[20:56:07] [Server thread/INFO]: Ets cavero[m
+[20:56:07] [Server thread/INFO]: Ets tonto[m
+[20:56:07] [Server thread/INFO]: Ets burro[m
+[20:56:07] [Server thread/INFO]: Ets burro[m
+[20:56:07] [Server thread/INFO]: Ets tonto[m
+[20:56:07] [Server thread/INFO]: Ets burro[m
+[20:56:07] [Server thread/INFO]: Ets tonto[m
+[20:56:07] [Server thread/INFO]: Ets cavero[m
+[20:56:07] [Server thread/INFO]: Ets tonto[m
+[20:56:07] [Server thread/INFO]: Ets tonto[m
+[20:56:07] [Server thread/INFO]: Ets tonto[m
+[20:56:07] [Server thread/INFO]: Ets burro[m
+[20:56:07] [Server thread/INFO]: Ets tonto[m
+[20:56:07] [Server thread/INFO]: Ets burro[m
+[20:56:07] [Server thread/INFO]: Ets burro[m
+[20:56:07] [Server thread/INFO]: Ets cavero[m
+[20:56:07] [Server thread/INFO]: Ets cavero[m
+[20:56:08] [Server thread/INFO]: Ets tonto[m
+[20:56:08] [Server thread/INFO]: Ets burro[m
+[20:56:08] [Server thread/INFO]: Ets cavero[m
+[20:56:08] [Server thread/INFO]: Ets cavero[m
+[20:56:08] [Server thread/INFO]: Ets cavero[m
+[20:56:08] [Server thread/INFO]: Ets cavero[m
+[20:56:08] [Server thread/INFO]: Ets tonto[m
+[20:56:08] [Server thread/INFO]: Ets burro[m
+[20:56:08] [Server thread/INFO]: Ets burro[m
+[20:56:08] [Server thread/INFO]: Ets cavero[m
+[20:56:08] [Server thread/INFO]: Ets burro[m
+[20:56:08] [Server thread/INFO]: Ets tonto[m
+[20:56:08] [Server thread/INFO]: Ets tonto[m
+[20:56:08] [Server thread/INFO]: Ets burro[m
+[20:56:08] [Server thread/INFO]: Ets cavero[m
+[20:56:08] [Server thread/INFO]: Ets cavero[m
+[20:56:08] [Server thread/INFO]: Ets burro[m
+[20:56:08] [Server thread/INFO]: Ets burro[m
+[20:56:08] [Server thread/INFO]: Ets burro[m
+[20:56:08] [Server thread/INFO]: Ets burro[m
+[20:56:09] [Server thread/INFO]: Ets burro[m
+[20:56:09] [Server thread/INFO]: Ets burro[m
+[20:56:09] [Server thread/INFO]: Ets burro[m
+[20:56:09] [Server thread/INFO]: Ets cavero[m
+[20:56:09] [Server thread/INFO]: Ets cavero[m
+[20:56:09] [Server thread/INFO]: Ets cavero[m
+[20:56:09] [Server thread/INFO]: Ets cavero[m
+[20:56:09] [Server thread/INFO]: Ets burro[m
+[20:56:09] [Server thread/INFO]: Ets cavero[m
+[20:56:09] [Server thread/INFO]: Ets cavero[m
+[20:56:09] [Server thread/INFO]: Ets tonto[m
+[20:56:09] [Server thread/INFO]: Ets cavero[m
+[20:56:09] [Server thread/INFO]: Ets tonto[m
+[20:56:09] [Server thread/INFO]: Ets cavero[m
+[20:56:09] [Server thread/INFO]: Ets cavero[m
+[20:56:09] [Server thread/INFO]: Ets burro[m
+[20:56:09] [Server thread/INFO]: Ets tonto[m
+[20:56:09] [Server thread/INFO]: Ets tonto[m
+[20:56:09] [Server thread/INFO]: Ets tonto[m
+[20:56:09] [Server thread/INFO]: Ets cavero[m
+[20:56:10] [Server thread/INFO]: Ets tonto[m
+[20:56:10] [Server thread/INFO]: Ets cavero[m
+[20:56:10] [Server thread/INFO]: Ets cavero[m
+[20:56:10] [Server thread/INFO]: Ets cavero[m
+[20:56:10] [Server thread/INFO]: Ets tonto[m
+[20:56:10] [Server thread/INFO]: Ets burro[m
+[20:56:10] [Server thread/INFO]: Ets tonto[m
+[20:56:10] [Server thread/INFO]: Ets cavero[m
+[20:56:10] [Server thread/INFO]: Ets burro[m
+[20:56:10] [Server thread/INFO]: Ets tonto[m
+[20:56:10] [Server thread/INFO]: Ets tonto[m
+[20:56:10] [Server thread/INFO]: Ets burro[m
+[20:56:10] [Server thread/INFO]: Ets burro[m
+[20:56:10] [Server thread/INFO]: Ets cavero[m
+[20:56:10] [Server thread/INFO]: Ets burro[m
+[20:56:10] [Server thread/INFO]: Ets cavero[m
+[20:56:10] [Server thread/INFO]: Ets cavero[m
+[20:56:10] [Server thread/INFO]: Ets burro[m
+[20:56:10] [Server thread/INFO]: Ets cavero[m
+[20:56:10] [Server thread/INFO]: Ets burro[m
+[20:56:11] [Server thread/INFO]: Ets tonto[m
+[20:56:11] [Server thread/INFO]: Ets tonto[m
+[20:56:11] [Server thread/INFO]: Ets tonto[m
+[20:56:11] [Server thread/INFO]: Ets cavero[m
+[20:56:11] [Server thread/INFO]: Ets cavero[m
+[20:56:11] [Server thread/INFO]: Ets cavero[m
+[20:56:11] [Server thread/INFO]: Ets burro[m
+[20:56:11] [Server thread/INFO]: Ets cavero[m
+[20:56:11] [Server thread/INFO]: Ets cavero[m
+[20:56:11] [Server thread/INFO]: Ets cavero[m
+[20:56:11] [Server thread/INFO]: Ets tonto[m
+[20:56:11] [Server thread/INFO]: Ets burro[m
+[20:56:11] [Server thread/INFO]: Ets cavero[m
+[20:56:11] [Server thread/INFO]: Ets cavero[m
+[20:56:11] [Server thread/INFO]: Ets burro[m
+[20:56:11] [Server thread/INFO]: Ets burro[m
+[20:56:11] [Server thread/INFO]: Ets burro[m
+[20:56:11] [Server thread/INFO]: Ets tonto[m
+[20:56:11] [Server thread/INFO]: Ets cavero[m
+[20:56:11] [Server thread/INFO]: Ets cavero[m
+[20:56:12] [Server thread/INFO]: Ets tonto[m
+[20:56:12] [Server thread/INFO]: Ets burro[m
+[20:56:12] [Server thread/INFO]: Ets burro[m
+[20:56:12] [Server thread/INFO]: Ets tonto[m
+[20:56:12] [Server thread/INFO]: Ets burro[m
+[20:56:12] [Server thread/INFO]: Ets burro[m
+[20:56:12] [Server thread/INFO]: Ets cavero[m
+[20:56:12] [Server thread/INFO]: Ets burro[m
+[20:56:12] [Server thread/INFO]: Ets burro[m
+[20:56:12] [Server thread/INFO]: Ets cavero[m
+[20:56:12] [Server thread/INFO]: Ets tonto[m
+[20:56:12] [Server thread/INFO]: Ets cavero[m
+[20:56:12] [Server thread/INFO]: Ets burro[m
+[20:56:12] [Server thread/INFO]: Ets cavero[m
+[20:56:12] [Server thread/INFO]: Ets burro[m
+[20:56:12] [Server thread/INFO]: Ets tonto[m
+[20:56:12] [Server thread/INFO]: Ets tonto[m
+[20:56:12] [Server thread/INFO]: Ets tonto[m
+[20:56:12] [Server thread/INFO]: Ets cavero[m
+[20:56:12] [Server thread/INFO]: Ets tonto[m
+[20:56:13] [Server thread/INFO]: Ets burro[m
+[20:56:13] [Server thread/INFO]: Ets burro[m
+[20:56:13] [Server thread/INFO]: Ets burro[m
+[20:56:13] [Server thread/INFO]: Ets burro[m
+[20:56:13] [Server thread/INFO]: Ets tonto[m
+[20:56:13] [Server thread/INFO]: Ets cavero[m
+[20:56:13] [Server thread/INFO]: Ets cavero[m
+[20:56:13] [Server thread/INFO]: Ets burro[m
+[20:56:13] [Server thread/INFO]: Ets tonto[m
+[20:56:13] [Server thread/INFO]: Ets tonto[m
+[20:56:13] [Server thread/INFO]: Ets tonto[m
+[20:56:13] [Server thread/INFO]: Ets cavero[m
+[20:56:13] [Server thread/INFO]: Ets burro[m
+[20:56:13] [Server thread/INFO]: Ets tonto[m
+[20:56:13] [Server thread/INFO]: Ets cavero[m
+[20:56:13] [Server thread/INFO]: Ets burro[m
+[20:56:13] [Server thread/INFO]: Ets cavero[m
+[20:56:13] [Server thread/INFO]: Ets burro[m
+[20:56:13] [Server thread/INFO]: Ets tonto[m
+[20:56:13] [Server thread/INFO]: Ets cavero[m
+[20:56:14] [Server thread/INFO]: Ets cavero[m
+[20:56:14] [Server thread/INFO]: Ets tonto[m
+[20:56:14] [Server thread/INFO]: Ets cavero[m
+[20:56:14] [Server thread/INFO]: Ets tonto[m
+[20:56:14] [Server thread/INFO]: Ets burro[m
+[20:56:14] [Server thread/INFO]: Ets tonto[m
+[20:56:14] [Server thread/INFO]: Ets burro[m
+[20:56:14] [Server thread/INFO]: Ets burro[m
+[20:56:14] [Server thread/INFO]: Ets cavero[m
+[20:56:14] [Server thread/INFO]: Ets tonto[m
+[20:56:14] [Server thread/INFO]: Ets tonto[m
+[20:56:14] [Server thread/INFO]: Ets tonto[m
+[20:56:14] [Server thread/INFO]: Ets burro[m
+[20:56:14] [Server thread/INFO]: Ets tonto[m
+[20:56:14] [Server thread/INFO]: Ets burro[m
+[20:56:14] [Server thread/INFO]: Ets tonto[m
+[20:56:14] [Server thread/INFO]: Ets burro[m
+[20:56:14] [Server thread/INFO]: Ets cavero[m
+[20:56:14] [Server thread/INFO]: Ets cavero[m
+[20:56:14] [Server thread/INFO]: Ets cavero[m
+[20:56:15] [Server thread/INFO]: Ets tonto[m
+[20:56:15] [Server thread/INFO]: Ets tonto[m
+[20:56:15] [Server thread/INFO]: Ets burro[m
+[20:56:15] [Server thread/INFO]: Ets tonto[m
+[20:56:15] [Server thread/INFO]: Ets cavero[m
+[20:56:15] [Server thread/INFO]: Ets cavero[m
+[20:56:15] [Server thread/INFO]: Ets tonto[m
+[20:56:15] [Server thread/INFO]: Ets tonto[m
+[20:56:15] [Server thread/INFO]: Ets cavero[m
+[20:56:15] [Server thread/INFO]: Ets tonto[m
+[20:56:15] [Server thread/INFO]: Ets cavero[m
+[20:56:15] [Server thread/INFO]: Ets cavero[m
+[20:56:15] [Server thread/INFO]: Ets burro[m
+[20:56:15] [Server thread/INFO]: Ets tonto[m
+[20:56:15] [Server thread/INFO]: Ets tonto[m
+[20:56:15] [Server thread/INFO]: Ets tonto[m
+[20:56:15] [Server thread/INFO]: Ets burro[m
+[20:56:15] [Server thread/INFO]: Ets cavero[m
+[20:56:15] [Server thread/INFO]: Ets cavero[m
+[20:56:15] [Server thread/INFO]: Ets burro[m
+[20:56:16] [Server thread/INFO]: Ets burro[m
+[20:56:16] [Server thread/INFO]: Ets cavero[m
+[20:56:16] [Server thread/INFO]: Ets tonto[m
+[20:56:16] [Server thread/INFO]: Ets cavero[m
+[20:56:16] [Server thread/INFO]: Ets burro[m
+[20:56:16] [Server thread/INFO]: Ets tonto[m
+[20:56:16] [Server thread/INFO]: Ets cavero[m
+[20:56:16] [Server thread/INFO]: Ets tonto[m
+[20:56:16] [Server thread/INFO]: Ets burro[m
+[20:56:16] [Server thread/INFO]: Ets burro[m
+[20:56:16] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57200.
