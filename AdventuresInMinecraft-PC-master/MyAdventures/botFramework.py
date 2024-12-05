@@ -8,12 +8,17 @@ class BotManagerSingleton:
     mc = minecraft.Minecraft.create() #Connexió al servidor de minecraft
     instance = None #Atributs per a que sigui un Singleton(instancia unica)
     lock = threading.Lock() #Atribut per a que el singleton funcioni correctament en threads, eliminar condicions de carrera
-    managerThread = threading.Thread(target='threadListener') #Thread independent que manegara los events
+    managerThread = None #Thread independent que manegara los events
+    runThread = True #Ens permetra parar l'execucio del thread
+    
     def __new__(cls):
         if not cls.instance: #Si no existeix encara la instancia (primera crida)
             with cls.lock: #Semafor per controlar concurrencia en els threads
                 if not cls.instance: #Doble verificació
                     cls.instance = super().__new__(cls) #Creació de primera instancia i unica
+                    cls.bots = [] #Incialitzem taula de bots
+                    cls.managerThread = threading.Thread(target= cls.instance.threadListener)
+                    cls.managerThread.start()
         return cls.instance #Retornem instancia del Singleton
     
     def addBot(self, newBot):
@@ -32,13 +37,17 @@ class BotManagerSingleton:
             lastMessage = chatEvents[-1]
             with self.lock:
                 for a in self.bots:
-                    if a.getEvent in lastMessage:
-                        print(f"S'activat el BOT! {a}")
+                    if a.getEvent() in lastMessage:
+                        self.mc.postToChat(a.__str__())
+                        a.doSomething() #Crida a la logica del bot
+                    elif a.stopBots() in lastMessage:
+                        self.managerThread = False #Parem el fil
+                        
 
     def threadListener(self):
-        while True:
+        while self.runThread:
             time.sleep(2)
-            self.actionListener
+            self.actionListener()
     
     
     
@@ -65,6 +74,9 @@ class BotFramework: #Definim la classe pare, el qual sera el contracte per al no
     #Event que ens activa el framework, depen de cada bot s'activarà amb una paraula clau diferent (comanda d'execucio dels bots) FORMAT= ':nomComanda'
     def getEvent(self):
         pass
+    
+    def stopBots(self):
+        return ":stop"
 
 
     
