@@ -10,6 +10,7 @@ class BotManagerSingleton:
     lock = threading.Lock() #Atribut per a que el singleton funcioni correctament en threads, eliminar condicions de carrera
     managerThread = None #Thread independent que manegara los events
     runThread = True #Ens permetra parar l'execucio del thread
+    activeBots = 0 #Recompte de bots que estan activats actualment
     
     def __new__(cls):
         if not cls.instance: #Si no existeix encara la instancia (primera crida)
@@ -39,11 +40,15 @@ class BotManagerSingleton:
             with self.lock:
                 for a in self.bots:
                     if not a.threadRun and a.getEvent() in lastMessage: #Comprovem que el fil del bot no esta ja a RUN
-                        a.threadRun = True #Inicia bot
-                        a.threadId.start() #Inicia fil independent per a la logica del bot
-                    elif a.stopBots() in lastMessage:
-                        a.threadRun = False #Parem el bot
-                        self.runThread = False #Parem el fil
+                        a.threadRun = True
+                        a.threadId = threading.Thread(target=a.threadAction)
+                        a.threadId.start()
+                        self.activeBots += 2
+                    elif a.getStop() in lastMessage: # Si ens escriuen la comanda de desactivament del bot lo parem
+                        a.threadRun = False
+                        self.activeBots -= 1
+                        if self.activeBots == 0:
+                            self.runThread = False # Detenemos el thread del manager si no hay bots activos
                                         
 
     def threadListener(self):
@@ -57,10 +62,10 @@ class BotFramework: #Definim la classe pare, el qual sera el contracte per al no
     mc = None
     manager = None
     threadRun = False
-    threadId = None
+    threadId = threading.Thread()
     def __init__(self):
-        self.threadId = threading.Thread(target=self.threadAction)
-        self.threadId.daemon = True
+        #self.threadId = threading.Thread(target=self.threadAction)
+        #self.threadId.daemon = True
         self.manager = BotManagerSingleton() #Obtenim la instancia del manegador
         self.manager.addBot(self) #Afegim el bot al nostre manager, quan fem la crida al constructor de la classe
         self.mc = self.manager.mc #Obtenim mateixa connexio per a tots els bots
@@ -76,8 +81,8 @@ class BotFramework: #Definim la classe pare, el qual sera el contracte per al no
     
     #Funcio que el manegador li controlara l'activitat d'aquest fil
     def threadAction(self):
-        while True:
-            time.sleep(5) #Cada 5 segons s'activa el bot de forma automatica
+        while self.threadRun:
+            time.sleep(3) #Cada 3 segons s'activa el bot de forma automatica
             self.doSomething() #Crida a la logica del bot
     
     #Mètode del contracte que s'ha de redefinir per fer cada funcionalitat
@@ -88,7 +93,7 @@ class BotFramework: #Definim la classe pare, el qual sera el contracte per al no
     def getEvent(self):
         pass
     
-    def stopBots(self):
+    def getStop(self):
         return ":stop"
 
 
