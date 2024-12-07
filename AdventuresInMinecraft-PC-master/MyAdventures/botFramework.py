@@ -11,7 +11,8 @@ class BotManagerSingleton:
     managerThread = None # Thread independent que manegara los events
     runThread = True # Ens permetra parar l'execucio del thread
     activeBots = 0 # Recompte de bots que estan activats actualment
-    
+    lastMessage = None
+
     def __new__(cls):
         if not cls.instance: # Si no existeix encara la instancia (primera crida)
             with cls.lock: # Semafor per controlar concurrencia en els threads
@@ -36,13 +37,13 @@ class BotManagerSingleton:
         chatEvents = self.mc.events.pollChatPosts() # Obtenim els posts del xat
         chatEvents = [chatEvent.message for chatEvent in chatEvents if chatEvent.message is not None] # Obtenim els missatges que tinguin contingut filtrar(functional)
         if len(chatEvents) > 0:
-            lastMessage = chatEvents[-1]
+            self.lastMessage = chatEvents[-1]
             with self.lock:
                 for a in self.bots:
-                    if not a.threadRun and a.getEvent() in lastMessage: # Comprovem que el fil del bot no esta ja a RUN
+                    if not a.threadRun and a.getEvent() in self.lastMessage: # Comprovem que el fil del bot no esta ja a RUN
                         a.startBot()
                         self.activeBots += 1
-                    elif a.getStop() in lastMessage: # Si ens escriuen la comanda de desactivament del bot lo parem
+                    elif a.getStop() in self.lastMessage: # Si ens escriuen la comanda de desactivament del bot lo parem
                         a.stopBot()
                         self.activeBots -= 1
                         if self.activeBots == 0:
@@ -52,6 +53,8 @@ class BotManagerSingleton:
         while self.runThread: # Fil independent que fa la logica del manegador
             time.sleep(1)
             self.actionListener()
+    def getChat(self):
+        return self.lastMessage
 
 class BotFramework: # Definim la classe pare, el qual sera el contracte per al nostre framework de bots
     mc = None
