@@ -1,6 +1,7 @@
 import mcpi.minecraft as minecraft
 import threading
 import time
+from abc import ABC,abstractmethod 
 
 # Classe que ens serveix de manegador, per controlar l'activació dels bots del framework que hauran sigut redefinits, només tindrem UN manegador per tots els bots
 class BotManagerSingleton: 
@@ -56,7 +57,7 @@ class BotManagerSingleton:
     def getChat(self):
         return self.lastMessage
 
-class BotFramework: # Definim la classe pare, el qual sera el contracte per al nostre framework de bots
+class BotFramework(ABC): # Definim la classe pare, el qual sera el contracte per al nostre framework de bots
     mc = None
     manager = None
     threadRun = False
@@ -79,15 +80,17 @@ class BotFramework: # Definim la classe pare, el qual sera el contracte per al n
             self.stop_event.wait(3) # Espera 3 segons o fins que es estableixi l'event
             if not self.stop_event.is_set():
                 self.doSomething() # Crida a la logica del bot
-    
+    @abstractmethod
     def doSomething(self):
         pass
-    
+        
+    @abstractmethod
     def getEvent(self):
         pass
-    
+        
+    @abstractmethod
     def getStop(self):
-        return ":stop"
+        pass
     
     def startBot(self):
         if not self.threadRun:
