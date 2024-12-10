@@ -3,6 +3,7 @@ from botFramework import BotFramework, BotManagerSingleton
 from mcpi import block
 
 class TNTBot(BotFramework):
+    
     def doSomething(self):
         resultat=self.mc.player.getPos()
         print(resultat)
@@ -15,6 +16,5 @@ class TNTBot(BotFramework):
     def __str__(self) -> str:
         return "<TNTBOT> "
     
-tntBot = TNTBot()
-
-BotManagerSingleton().managerThread.join()
+    def getStop(self):
+        return ":stopTNTBot"

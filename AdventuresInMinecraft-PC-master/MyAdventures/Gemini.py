@@ -23,6 +23,5 @@ class Gemini(BotFramework):
     def __str__(self) -> str:
         return "<Gemini> "
     
-gemini = Gemini()
-
-BotManagerSingleton().managerThread.join()
+    def getStop(self):
+        return ":stopGemini"

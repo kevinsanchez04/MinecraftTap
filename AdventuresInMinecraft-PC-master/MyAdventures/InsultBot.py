@@ -13,9 +13,10 @@ class InsultBot(BotFramework):
     def __str__(self) -> str:
         return "<InsultBOT> "
     
-insultBot = InsultBot()
+    def getStop(self):
+        return ":stopInsultBot"
 
-BotManagerSingleton().managerThread.join()
+insult = InsultBot()
 
-
+BotManagerSingleton.managerThread.join()
     
