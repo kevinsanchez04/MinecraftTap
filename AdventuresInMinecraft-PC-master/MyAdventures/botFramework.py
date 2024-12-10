@@ -192,4 +192,3 @@ class BotFramework(ABC): # Definim la classe pare, el qual sera el contracte per
 #     def send_message(self, message):
 #         print(f"Received message:{message}")
 #         return "Message received"
-
