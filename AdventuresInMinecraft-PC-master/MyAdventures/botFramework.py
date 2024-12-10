@@ -22,6 +22,7 @@ class BotManagerSingleton:
     pyroServer = None
 
     def __new__(cls):
+    
         if not cls.instance: # Si no existeix encara la instancia (primera crida)
             with cls.lock: # Semafor per controlar concurrencia en els threads
                 if not cls.instance: # Doble verificació
