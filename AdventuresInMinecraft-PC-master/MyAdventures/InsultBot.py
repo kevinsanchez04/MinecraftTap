@@ -1,6 +1,6 @@
 import random
 import time
-from botFramework import BotFramework, BotManagerSingleton
+from BotManager import BotFramework, BotManagerSingleton
 
 class InsultBot(BotFramework):
     insults = ["Ets burro","Ets tonto", "Ets cavero"]
@@ -16,7 +16,7 @@ class InsultBot(BotFramework):
     def getStop(self):
         return ":stopInsultBot"
 
-insult = InsultBot()
+#insult = InsultBot()
 
-BotManagerSingleton.managerThread.join()
+#BotManagerSingleton.managerThread.join()
     

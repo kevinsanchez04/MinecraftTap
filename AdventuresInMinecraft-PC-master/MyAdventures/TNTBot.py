@@ -1,5 +1,5 @@
 import random
-from botFramework import BotFramework, BotManagerSingleton
+from BotManager import BotFramework, BotManagerSingleton
 from mcpi import block
 
 class TNTBot(BotFramework):

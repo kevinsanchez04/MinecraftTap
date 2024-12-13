@@ -1,5 +1,5 @@
 import google.generativeai as genai
-from botFramework import BotFramework, BotManagerSingleton
+from BotManager import BotFramework, BotManagerSingleton
 
 
 class Gemini(BotFramework):

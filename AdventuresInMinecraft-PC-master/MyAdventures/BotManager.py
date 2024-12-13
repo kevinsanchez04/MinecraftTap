@@ -28,8 +28,8 @@ class BotManagerSingleton:
                     cls.managerThread.daemon = True # Eliminem thread si s'elimina el objecte
                     cls.managerThread.start()
 
-                    daemon = Pyro5.api.Daemon(host="192.168.5.207")
-                    ns = Pyro5.api.locate_ns(host="192.168.5.207",port=9090)
+                    daemon = Pyro5.api.Daemon(host="192.168.1.44")
+                    ns = Pyro5.api.locate_ns(host="192.168.1.44",port=9090)
                     uri = daemon.register(BotManagerSingleton)
                     ns.register("MinecraftServer",uri)
 
@@ -82,7 +82,7 @@ class BotManagerSingleton:
 
     def threadListener(self):
         while True:
-            print(f"Thread manager corriendo. Bots activos: {self.activeBots}")  # Depuración
+            print(f"Thread manager corriendo. Bots activos: {list(map(lambda x: x.__str__(), self.bots))}")  # Depuración
             time.sleep(1)
             self.actionListener()
             
@@ -135,4 +135,4 @@ class BotFramework(ABC): # Definim la classe pare, el qual sera el contracte per
         
     @abstractmethod
     def getStop(self):
-        passda
+        pass

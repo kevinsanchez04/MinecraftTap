@@ -1,4 +1,4 @@
-from botFramework import BotFramework, BotManagerSingleton
+from BotManager import BotManagerSingleton
 import InsultBot
 import Gemini
 import TNTBot

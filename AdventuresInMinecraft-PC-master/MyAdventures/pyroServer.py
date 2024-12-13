@@ -8,7 +8,7 @@ class UseServer():
         print(f"Received message:{message}")
         return "Message received"
     
-daemon = Pyro5.api.Daemon(host="10.112.153.180")
+daemon = Pyro5.api.Daemon(host="192.168.1.44")
 uri = daemon.register(UseServer)
 print(f"This is the uri they need for the server is --> {uri} <--")
 daemon.requestLoop()
