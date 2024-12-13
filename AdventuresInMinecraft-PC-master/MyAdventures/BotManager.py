@@ -2,8 +2,10 @@ import mcpi.minecraft as minecraft
 import threading
 import time
 from abc import ABC,abstractmethod
+import Pyro5.api
 
 # Classe que ens serveix de manegador, per controlar l'activació dels bots del framework que hauran sigut redefinits, només tindrem UN manegador per tots els bots
+@Pyro5.api.expose
 class BotManagerSingleton: 
     
     bots: list['BotFramework'] # Llista de bots als quals estem controlant, 'BotFramework' == Forward reference
@@ -13,6 +15,8 @@ class BotManagerSingleton:
     managerThread = None # Thread independent que manegara los events
     activeBots = 0 # Recompte de bots que estan activats actualment
     lastMessage = None
+    pyroThread = None
+    message = None
 
     def __new__(cls):
         if not cls.instance: # Si no existeix encara la instancia (primera crida)
@@ -23,6 +27,15 @@ class BotManagerSingleton:
                     cls.managerThread = threading.Thread(target=cls.instance.threadListener)
                     cls.managerThread.daemon = True # Eliminem thread si s'elimina el objecte
                     cls.managerThread.start()
+
+                    daemon = Pyro5.api.Daemon(host="192.168.5.207")
+                    ns = Pyro5.api.locate_ns(host="192.168.5.207",port=9090)
+                    uri = daemon.register(BotManagerSingleton)
+                    ns.register("MinecraftServer",uri)
+
+                    cls.pyroThread = threading.Thread(target=daemon.requestLoop)
+                    cls.pyroThread.start()
+
         return cls.instance # Retornem instancia del Singleton
     
     def addBot(self, newBot):
@@ -35,6 +48,7 @@ class BotManagerSingleton:
                 self.bots.remove(bot)
     
     def actionListener(self):
+        print(self.bots.__str__())
         chatEvents = self.mc.events.pollChatPosts()
         chatEvents = [chatEvent.message for chatEvent in chatEvents if chatEvent.message is not None]
         if len(chatEvents) > 0:
@@ -48,7 +62,24 @@ class BotManagerSingleton:
                     if a.threadRun and a.getStop() in self.lastMessage:
                         self.activeBots -= 1     
                         a.stopBot()
-        
+        elif self.message is not None:
+            with self.lock:
+                for a in self.bots:
+                    if not a.threadRun and a.getEvent() in self.message:
+                        a.startBot()
+                        self.activeBots += 1
+
+                    if a.threadRun and a.getStop() in self.message:
+                        self.activeBots -= 1     
+                        a.stopBot()
+
+            self.message = None
+
+    def send_message(self, message):
+        print(f"Received message:{message}")
+        self.message = message
+        return "Message received"            
+
     def threadListener(self):
         while True:
             print(f"Thread manager corriendo. Bots activos: {self.activeBots}")  # Depuración
@@ -104,4 +135,4 @@ class BotFramework(ABC): # Definim la classe pare, el qual sera el contracte per
         
     @abstractmethod
     def getStop(self):
-        pass
+        passda
