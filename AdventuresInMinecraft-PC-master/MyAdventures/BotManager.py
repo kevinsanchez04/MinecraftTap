@@ -17,7 +17,8 @@ class BotManagerSingleton:
     lastMessage = None
     pyroThread = None
     message = None
-
+    managerRun = True
+    
     def __new__(cls):
         if not cls.instance: # Si no existeix encara la instancia (primera crida)
             with cls.lock: # Semafor per controlar concurrencia en els threads
@@ -28,8 +29,8 @@ class BotManagerSingleton:
                     cls.managerThread.daemon = True # Eliminem thread si s'elimina el objecte
                     cls.managerThread.start()
 
-                    daemon = Pyro5.api.Daemon(host="192.168.1.44")
-                    ns = Pyro5.api.locate_ns(host="192.168.1.44",port=9090)
+                    daemon = Pyro5.api.Daemon(host="192.168.1.107")
+                    ns = Pyro5.api.locate_ns(host="192.168.1.107",port=9090)
                     uri = daemon.register(BotManagerSingleton)
                     ns.register("MinecraftServer",uri)
 
@@ -62,6 +63,11 @@ class BotManagerSingleton:
                     if a.threadRun and a.getStop() in self.lastMessage:
                         self.activeBots -= 1     
                         a.stopBot()
+                    elif self.getStop() in self.lastMessage:
+                        self.managerRun = False #El manegador es tanca i no es podran tornar a engegar bots
+                        for bot in self.bots:
+                            bot.stopBot()
+                        
         elif self.message is not None:
             with self.lock:
                 for a in self.bots:
@@ -72,7 +78,7 @@ class BotManagerSingleton:
                     if a.threadRun and a.getStop() in self.message:
                         self.activeBots -= 1     
                         a.stopBot()
-
+                        
             self.message = None
 
     def send_message(self, message):
@@ -81,7 +87,7 @@ class BotManagerSingleton:
         return "Message received"            
 
     def threadListener(self):
-        while True:
+        while self.managerRun:
             print(f"Thread manager corriendo. Bots activos: {list(map(lambda x: x.__str__(), self.bots))}")  # Depuración
             time.sleep(1)
             self.actionListener()
@@ -89,6 +95,8 @@ class BotManagerSingleton:
     def getChat(self):
         return self.lastMessage
     
+    def getStop(self):
+        return ":stopManager"
 
 class BotFramework(ABC): # Definim la classe pare, el qual sera el contracte per al nostre framework de bots
 
@@ -117,13 +125,13 @@ class BotFramework(ABC): # Definim la classe pare, el qual sera el contracte per
         if not self.threadRun:
             self.threadRun = True
             self.threadId = threading.Thread(target=self.threadAction)
-            self.threadId.daemon = True
+            #self.threadId.daemon = True
             self.threadId.start()
     
     def stopBot(self):
         if self.threadRun:
             self.threadRun = False
-            self.threadId.join()
+            #self.threadId.join()
     
     @abstractmethod
     def doSomething(self):
