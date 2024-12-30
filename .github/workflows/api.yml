@@ -18,6 +18,7 @@ jobs:
         pip install Pyro5
     - name: Run tests and collect coverage
       run: |
+            StartServer.bat
             cd AdventuresInMinecraft-PC-master/MyAdventures
             coverage run -m unittest test1.py
             coverage xml -o coverage.xml
