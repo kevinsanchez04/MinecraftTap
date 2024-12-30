@@ -1,0 +1,23 @@
+name: API workflow
+
+on: [push, pull_request]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    name: Test python API
+    steps:
+    - uses: actions/checkout@v4
+    - uses: actions/setup-python@v2
+      with:
+        python-version: '3.10'
+    - name: Run tests and collect coverage
+      run: |
+            cd AdventuresInMinecraft-PC-master/MyAdventures
+            coverage run -m unittest test1.py
+            coverage xml -o coverage.xml
+            cd ../..
+    - name: Upload coverage reports to Codecov with GitHub Action
+      uses: codecov/codecov-action@v5
+      env:
+        CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}

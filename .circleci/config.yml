@@ -1,0 +1,25 @@
+version: 2.1
+
+orbs:
+  codecov: codecov/codecov@4.0.1
+
+jobs:
+  test-api:
+    docker:
+      - image: cimg/python:3.10.2
+    steps:
+      - checkout
+      - run:
+          name: Run tests and collect coverage
+          command: |
+            cd AdventuresInMinecraft-PC-master/MyAdventures
+            coverage run -m unittest test1.py
+            coverage xml -o coverage.xml
+            cd ../..
+      - codecov/upload
+
+workflows:
+  version: 2.1
+  build-test:
+    jobs:
+      - test-api
