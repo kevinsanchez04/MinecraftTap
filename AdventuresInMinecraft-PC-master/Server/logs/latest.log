@@ -1,157 +1,60 @@
-[17:09:10] [Server thread/INFO]: Loading properties
-[17:09:10] [Server thread/INFO]: Default game type: CREATIVE
-[17:09:10] [Server thread/INFO]: Generating keypair
-[17:09:10] [Server thread/INFO]: Starting Minecraft server on *:25565
-[17:09:10] [Server thread/INFO]: Using default channel type
-[17:09:11] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
-[17:09:11] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
-[17:09:11] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[17:09:11] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[17:09:11] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[17:09:11] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[17:09:11] [Server thread/INFO]: Preparing level "world"
-[17:09:12] [Server thread/INFO]: Preparing start region for level 0 (Seed: -5963707194692196805)
-[17:09:12] [Server thread/INFO]: Preparing start region for level 1 (Seed: -5963707194692196805)
-[17:09:13] [Server thread/INFO]: Preparing start region for level 2 (Seed: -5963707194692196805)
-[17:09:13] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
-[17:09:13] [Server thread/INFO]: [RaspberryJuice] Using port 4711
-[17:09:13] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
-[17:09:13] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
-[17:09:13] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
-[17:09:13] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[17:09:13] [Server thread/INFO]: Done (1,683s)! For help, type "help" or "?"
-[17:09:18] [Thread-7/INFO]: [RaspberryJuice] Starting input thread
-[17:09:18] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53125.
-[17:09:18] [Thread-8/INFO]: [RaspberryJuice] Starting output thread!
-[17:09:20] [Thread-7/INFO]: [RaspberryJuice] Connection reset
-[17:09:20] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53125.
-[17:10:38] [Thread-9/INFO]: [RaspberryJuice] Starting input thread
-[17:10:38] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53451.
-[17:10:38] [Thread-10/INFO]: [RaspberryJuice] Starting output thread!
-[17:11:50] [Server thread/INFO]: Kevin[/127.0.0.1:53817] logged in with entity id 11 at ([world]414.57177172258525, 74.79408640493416, 1341.7540043323852)
-[17:11:56] [Server thread/INFO]: Kevin issued server command: /time set 10
-[17:11:56] [Server thread/INFO]: [Kevin: Set the time to 10]
-[17:12:04] [Netty Server IO #1/INFO]: <Kevin> :ReflectionBot[m
-[17:13:10] [Netty Server IO #1/INFO]: <Kevin> :stopManager[m
-[17:13:30] [Netty Server IO #1/INFO]: <Kevin> :stopReflectionBot[m
-[17:13:42] [Thread-9/INFO]: [RaspberryJuice] Connection reset
-[17:13:42] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53451.
-[17:17:09] [Thread-11/INFO]: [RaspberryJuice] Starting input thread
-[17:17:09] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55025.
-[17:17:09] [Thread-12/INFO]: [RaspberryJuice] Starting output thread!
-[17:17:13] [Netty Server IO #1/INFO]: <Kevin> :ReflectionBot[m
-[17:17:27] [Thread-11/INFO]: [RaspberryJuice] Connection reset
-[17:17:27] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55025.
-[17:24:30] [Thread-13/INFO]: [RaspberryJuice] Starting input thread
-[17:24:30] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:56566.
-[17:24:30] [Thread-14/INFO]: [RaspberryJuice] Starting output thread!
-[17:24:42] [Netty Server IO #1/INFO]: <Kevin> :ReflectionBot[m
-[17:24:45] [Server thread/WARN]: [RaspberryJuice] world.getUsername is not supported.
-[17:25:45] [Thread-13/INFO]: [RaspberryJuice] Connection reset
-[17:25:45] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:56566.
-[17:25:47] [Thread-15/INFO]: [RaspberryJuice] Starting input thread
-[17:25:47] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:56833.
-[17:25:47] [Thread-16/INFO]: [RaspberryJuice] Starting output thread!
-[17:25:50] [Netty Server IO #1/INFO]: <Kevin> :ReflectionBot[m
-[17:25:53] [Server thread/WARN]: [RaspberryJuice] world.getName is not supported.
-[17:28:58] [Thread-15/INFO]: [RaspberryJuice] Connection reset
-[17:28:58] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:56833.
-[17:29:00] [Thread-17/INFO]: [RaspberryJuice] Starting input thread
-[17:29:00] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57494.
-[17:29:00] [Thread-18/INFO]: [RaspberryJuice] Starting output thread!
-[17:29:01] [Netty Server IO #1/INFO]: <Kevin> :ReflectionBot[m
-[17:29:03] [Server thread/WARN]: [RaspberryJuice] world.getName is not supported.
-[17:29:27] [Thread-17/INFO]: [RaspberryJuice] Connection reset
-[17:29:27] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57494.
-[17:30:50] [Thread-19/INFO]: [RaspberryJuice] Starting input thread
-[17:30:50] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57863.
-[17:30:50] [Thread-20/INFO]: [RaspberryJuice] Starting output thread!
-[17:30:54] [Netty Server IO #1/INFO]: <Kevin> :ReflectionBot[m
-[17:30:56] [Server thread/WARN]: [RaspberryJuice] world.getUserName is not supported.
-[17:31:02] [Thread-19/INFO]: [RaspberryJuice] Connection reset
-[17:31:02] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57863.
-[17:31:08] [Thread-21/INFO]: [RaspberryJuice] Starting input thread
-[17:31:08] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57937.
-[17:31:08] [Thread-22/INFO]: [RaspberryJuice] Starting output thread!
-[17:31:09] [Netty Server IO #1/INFO]: <Kevin> :ReflectionBot[m
-[17:31:12] [Server thread/WARN]: [RaspberryJuice] world.getUsername is not supported.
-[17:31:55] [Thread-21/INFO]: [RaspberryJuice] Connection reset
-[17:31:55] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57937.
-[17:31:57] [Thread-23/INFO]: [RaspberryJuice] Starting input thread
-[17:31:57] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:58104.
-[17:31:57] [Thread-24/INFO]: [RaspberryJuice] Starting output thread!
-[17:32:00] [Netty Server IO #1/INFO]: <Kevin> :ReflectionBot[m
-[17:32:03] [Server thread/WARN]: [RaspberryJuice] world.getUsername is not supported.
-[17:32:45] [Thread-23/INFO]: [RaspberryJuice] Connection reset
-[17:32:45] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:58104.
-[17:32:47] [Thread-25/INFO]: [RaspberryJuice] Starting input thread
-[17:32:47] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:58279.
-[17:32:47] [Thread-26/INFO]: [RaspberryJuice] Starting output thread!
-[17:32:49] [Netty Server IO #1/INFO]: <Kevin> :ReflectionBot[m
-[17:32:51] [Server thread/WARN]: [RaspberryJuice] world.getUsername is not supported.
-[17:33:04] [Thread-25/INFO]: [RaspberryJuice] Connection reset
-[17:33:05] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:58279.
-[17:37:41] [Server thread/INFO]: Kevin lost connection: Internal Exception: java.io.IOException: Se ha forzado la interrupción de una conexión existente por el host remoto
-[17:37:41] [Server thread/INFO]: Kevin left the game
-[17:54:03] [Thread-27/INFO]: [RaspberryJuice] Starting input thread
-[17:54:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:62823.
-[17:54:03] [Thread-28/INFO]: [RaspberryJuice] Starting output thread!
-[17:54:15] [Server thread/INFO]: Kevin[/127.0.0.1:62953] logged in with entity id 20 at ([world]389.50127702123837, 64.0, 1375.7394728145844)
-[17:54:20] [Netty Server IO #3/INFO]: <Kevin> :ReflectionBot[m
-[17:54:34] [Thread-27/INFO]: [RaspberryJuice] Connection reset
-[17:54:34] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:62823.
-[17:55:06] [Thread-29/INFO]: [RaspberryJuice] Starting input thread
-[17:55:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:63127.
-[17:55:06] [Thread-30/INFO]: [RaspberryJuice] Starting output thread!
-[17:55:08] [Netty Server IO #3/INFO]: <Kevin> :ReflectionBot[m
-[17:55:33] [Thread-29/INFO]: [RaspberryJuice] Connection reset
-[17:55:33] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:63127.
-[17:55:34] [Thread-31/INFO]: [RaspberryJuice] Starting input thread
-[17:55:34] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:63220.
-[17:55:34] [Thread-32/INFO]: [RaspberryJuice] Starting output thread!
-[17:55:35] [Netty Server IO #3/INFO]: <Kevin> :ReflectionBot[m
-[17:55:54] [Thread-31/INFO]: [RaspberryJuice] Connection reset
-[17:55:54] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:63220.
-[17:56:22] [Thread-33/INFO]: [RaspberryJuice] Starting input thread
-[17:56:22] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:63400.
-[17:56:22] [Thread-34/INFO]: [RaspberryJuice] Starting output thread!
-[17:56:24] [Netty Server IO #3/INFO]: <Kevin> :ReflectionBot[m
-[18:20:02] [Thread-33/INFO]: [RaspberryJuice] Connection reset
-[18:20:02] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:63400.
-[18:20:04] [Thread-35/INFO]: [RaspberryJuice] Starting input thread
-[18:20:04] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52488.
-[18:20:04] [Thread-36/INFO]: [RaspberryJuice] Starting output thread!
-[18:20:10] [Netty Server IO #3/INFO]: <Kevin> :stopManager[m
-[18:20:31] [Thread-35/INFO]: [RaspberryJuice] Connection reset
-[18:20:31] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52488.
-[18:24:54] [Thread-37/INFO]: [RaspberryJuice] Starting input thread
-[18:24:54] [Thread-38/INFO]: [RaspberryJuice] Starting output thread!
-[18:24:54] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53624.
-[18:24:57] [Netty Server IO #3/INFO]: <Kevin> :ReflectionBot[m
-[18:25:32] [Thread-37/INFO]: [RaspberryJuice] Connection reset
-[18:25:32] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53624.
-[18:25:43] [Thread-39/INFO]: [RaspberryJuice] Starting input thread
-[18:25:43] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53798.
-[18:25:43] [Thread-40/INFO]: [RaspberryJuice] Starting output thread!
-[18:25:45] [Netty Server IO #3/INFO]: <Kevin> :ReflectionBot[m
-[18:26:09] [Thread-39/INFO]: [RaspberryJuice] Connection reset
-[18:26:09] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53798.
-[18:26:10] [Thread-41/INFO]: [RaspberryJuice] Starting input thread
-[18:26:10] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53897.
-[18:26:10] [Thread-42/INFO]: [RaspberryJuice] Starting output thread!
-[18:26:13] [Netty Server IO #3/INFO]: <Kevin> :ReflectionBot[m
-[18:26:34] [Netty Server IO #3/INFO]: <Kevin> :stopManager[m
-[18:26:46] [Thread-41/INFO]: [RaspberryJuice] Connection reset
-[18:26:46] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53897.
-[18:30:02] [Thread-43/INFO]: [RaspberryJuice] Starting input thread
-[18:30:02] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:54731.
-[18:30:02] [Thread-44/INFO]: [RaspberryJuice] Starting output thread!
-[18:30:04] [Netty Server IO #3/INFO]: <Kevin> :ReflectionBot[m
-[18:30:15] [Netty Server IO #3/INFO]: <Kevin> :stopManager[m
-[18:30:25] [Thread-43/INFO]: [RaspberryJuice] Connection reset
-[18:30:26] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:54731.
-[18:31:38] [Thread-45/INFO]: [RaspberryJuice] Starting input thread
-[18:31:38] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55067.
-[18:31:38] [Thread-46/INFO]: [RaspberryJuice] Starting output thread!
-[18:31:39] [Netty Server IO #3/INFO]: <Kevin> :ReflectionBot[m
-[18:31:48] [Netty Server IO #3/INFO]: <Kevin> :stopManager[m
+[15:00:23] [Server thread/INFO]: Starting minecraft server version 1.12
+[15:00:23] [Server thread/INFO]: Loading properties
+[15:00:23] [Server thread/INFO]: Default game type: CREATIVE
+[15:00:23] [Server thread/INFO]: Generating keypair
+[15:00:23] [Server thread/INFO]: Starting Minecraft server on *:25565
+[15:00:23] [Server thread/INFO]: Using default channel type
+[15:00:24] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
+[15:00:24] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
+[15:00:24] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[15:00:24] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[15:00:24] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[15:00:24] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[15:00:24] [Server thread/INFO]: Preparing level "world"
+[15:00:24] [Server thread/INFO]: Preparing start region for level 0 (Seed: -5963707194692196805)
+[15:00:25] [Server thread/INFO]: Preparing start region for level 1 (Seed: -5963707194692196805)
+[15:00:26] [Server thread/INFO]: Preparing start region for level 2 (Seed: -5963707194692196805)
+[15:00:26] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
+[15:00:26] [Server thread/INFO]: [RaspberryJuice] Using port 4711
+[15:00:26] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
+[15:00:26] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
+[15:00:26] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
+[15:00:26] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[15:00:26] [Server thread/INFO]: Done (1.944s)! For help, type "help" or "?"
+[15:00:30] [Server thread/INFO]: Iulian[/127.0.0.1:55629] logged in with entity id 36 at ([world]296.0959594288954, 67.0, 133.7641400472552)
+[15:00:38] [Thread-7/INFO]: [RaspberryJuice] Starting input thread
+[15:00:38] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55630.
+[15:00:38] [Thread-8/INFO]: [RaspberryJuice] Starting output thread!
+[15:00:46] [Netty Server IO #1/INFO]: <Iulian> :InsultBot[m
+[15:00:49] [Server thread/INFO]: Ets burro[m
+[15:00:51] [Server thread/INFO]: Ets tonto[m
+[15:00:53] [Server thread/INFO]: Ets burro[m
+[15:00:55] [Server thread/INFO]: Ets burro[m
+[15:00:57] [Server thread/INFO]: Ets tonto[m
+[15:00:58] [Netty Server IO #1/INFO]: <Iulian> :stopInsultBot[m
+[15:00:59] [Server thread/INFO]: Ets cavero[m
+[15:01:03] [Server thread/INFO]: Today is Friday, October 27th, 2023[m
+[15:01:03] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_401]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_401]
+[15:01:08] [Server thread/INFO]: Ets burro[m
+[15:01:10] [Server thread/INFO]: Ets cavero[m
+[15:01:12] [Server thread/INFO]: Ets tonto[m
+[15:01:13] [Server thread/INFO]: Ets cavero[m
+[15:01:16] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55647.
+[15:01:16] [Thread-9/INFO]: [RaspberryJuice] Starting input thread
+[15:01:16] [Thread-10/INFO]: [RaspberryJuice] Starting output thread!
+[15:01:19] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55647.
+[15:01:20] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55630.
+[15:02:07] [Server thread/INFO]: Iulian lost connection: Internal Exception: java.io.IOException: An existing connection was forcibly closed by the remote host
+[15:02:07] [Server thread/INFO]: Iulian left the game

@@ -15,8 +15,10 @@ class InsultBot(BotFramework):
     
     def getStop(self):
         return ":stopInsultBot"
+    
+    def getMessages(self):
+        return self.insults
 
-#insult = InsultBot()
-
-#BotManagerSingleton.managerThread.join()
+# insult = InsultBot()
+# BotManagerSingleton.managerThread.join()
     
