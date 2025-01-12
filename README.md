@@ -8,8 +8,9 @@
     <li>Execute the file <b>StartServer.bat</b></li>
     <li>Open a Command Line Interface</li>
     <li>Execute command <b>ipconfig</b> and take the IP ADRESS</li>
+    <li>Execute command pyro5-ns -n <b><your_ip></b> -p 9090 </li>
     <li>Go to the file <b>MinecraftTap/AdventuresInMinecraft-PC-master/MyAdventures/BotManager</b> in line 33,34 put your IP ADRESS</li>
-    <li>Open a Command Line Interface</li>
+    <li>Open new a Command Line Interface</li>
     <li>Go to <b>MinecraftTap/AdventuresInMinecraft-PC-master/MyAdventures</b> with cd command</li>
     <li>Install Coverage with the command pip install coverage</li>
     <li>Execute 
@@ -34,6 +35,7 @@
     <li>Execute the file <b>StartServer.bat</b></li>
     <li>Open a Command Line Interface</li>
     <li>Execute command <b>ipconfig</b> and take the IP ADRESS</li>
+    <li>Execute command pyro5-ns -n <b><your_ip></b> -p 9090 </li>
     <li>Go to the file <b>MinecraftTap/AdventuresInMinecraft-PC-master/MyAdventures/BotManager</b> in line 33,34 put your IP ADRESS</li>
     <li>Execute the file <b>MinecraftTap/AdventuresInMinecraft-PC-master/MyAdventures/main.py</b></li>
     <li>Open Minecraft and connect to the server which is in localhost</li>
