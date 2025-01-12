@@ -48,4 +48,5 @@
         </ul>
     </li>
   </ol>
+<h2>If you want to use PyroUser.py you have to change the ip in the line 3</h2>
 <h1>!!!ENJOY!!!</h1>
